@@ -1,0 +1,25 @@
+{
+  "name": "expressv1",
+  "version": "1.0.0",
+  "description": "It is Firs Version",
+  "main": "index.js",
+  "scripts": {
+    "devStart" :"nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PayamAmerianPLC/Expressv1.git"
+  },
+  "author": "Payam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PayamAmerianPLC/Expressv1/issues"
+  },
+  "homepage": "https://github.com/PayamAmerianPLC/Expressv1#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
