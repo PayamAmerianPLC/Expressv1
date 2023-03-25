@@ -4,8 +4,6 @@ const {Configuration, OpenAIApi } = require("openai");
 require("dotenv").config;
 const app=express()// Drag Drop AOI/Argument aoi tagname is app
 
-
-
 app.use(express.json());
 
 const configuration= new Configuration({
